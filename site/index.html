@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100609">
+  <meta name="description" content="Katana Hack — огненный набор функций для Geometry Dash 2.2081. Получить доступ можно через Telegram-бота.">
+  <meta property="og:title" content="Katana Hack — Fire-powered GD toolkit">
+  <meta property="og:description" content="Speed до x100, NoClip, Instant Restart, Hitboxes, Jump Bug, Instant Complete и Unlock All.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/menu-preview.png">
+  <title>Katana Hack — Fire-powered GD toolkit</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержимому</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Katana Hack — наверх">
+      <span class="brand-mark" aria-hidden="true"><i></i></span>
+      <span>KATANA <em>HACK</em></span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+      <a href="#features">Функции</a>
+      <a href="#preview">Меню</a>
+      <a href="#start">Запуск</a>
+      <a class="nav-cta" href="https://t.me/katanahack_bot" target="_blank" rel="noopener noreferrer">Активировать код</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <canvas class="embers" data-embers aria-hidden="true"></canvas>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Geometry Dash 2.2081 · Windows x64</p>
+          <h1>Control the run.<br><strong>Cut the limits.</strong></h1>
+          <p class="hero-lead">Огненный toolkit для Geometry Dash: от честно синхронизированной скорости до мгновенного завершения уровня — в одном компактном меню.</p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://t.me/katanahack_bot" target="_blank" rel="noopener noreferrer">
+              <span class="telegram-icon" aria-hidden="true">➤</span>
+              Активировать код
+            </a>
+            <a class="button button-ghost" href="#preview">Смотреть меню <span aria-hidden="true">↓</span></a>
+          </div>
+
+          <ul class="hero-meta" aria-label="Ключевые возможности">
+            <li><b>x100</b><span>макс. скорость</span></li>
+            <li><b>7</b><span>главных функций</span></li>
+            <li><b>Insert</b><span>открыть меню</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" data-delay="120">
+          <div class="orbit orbit-one" aria-hidden="true"></div>
+          <div class="orbit orbit-two" aria-hidden="true"></div>
+          <figure class="hero-shot" data-tilt>
+            <div class="shot-bar">
+              <span class="status-dot"></span>
+              <span>Katana Hack // live preview</span>
+              <b>2.2081</b>
+            </div>
+            <img class="hero-game" src="assets/menu-preview.png" alt="Katana Hack, открытый поверх Geometry Dash" width="1920" height="1080">
+            <img class="hero-menu-closeup" src="assets/menu-closeup.png" alt="Актуальное огненное меню Katana Hack со всеми функциями" width="299" height="463">
+            <figcaption>
+              <span>Native overlay</span>
+              <span>Animated fire UI</span>
+            </figcaption>
+          </figure>
+          <div class="floating-chip chip-one"><span>◆</span> NoClip</div>
+          <div class="floating-chip chip-two"><span>×</span> Speed 100</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="signal-strip" aria-label="Список функций">
+      <div class="signal-track">
+        <span>SPEED CONTROL</span><i>◆</i><span>NOCLIP</span><i>◆</i><span>INSTANT RESTART</span><i>◆</i><span>SHOW HITBOXES</span><i>◆</i><span>JUMP BUG</span><i>◆</i><span>INSTANT COMPLETE</span><i>◆</i><span>UNLOCK ALL</span>
+      </div>
+    </section>
+
+    <section class="section features-section" id="features">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> Арсенал</p>
+          <h2>Семь функций.<br><em>Один точный удар.</em></h2>
+          <p>Каждая функция включается отдельно. Настройки сохраняются между запусками.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-wide reveal">
+            <div class="feature-number">01</div>
+            <div class="feature-icon">×</div>
+            <div>
+              <h3>Speed Control</h3>
+              <p>Вводи множитель от <b>x0.05</b> до <b>x100.00</b>. Игровая физика, тайминг кнопок и высота прыжка остаются синхронизированными.</p>
+            </div>
+            <div class="speed-meter" aria-hidden="true"><span></span><b>x100</b></div>
+          </article>
+
+          <article class="feature-card reveal" data-delay="60">
+            <div class="feature-number">02</div><div class="feature-icon">◇</div>
+            <h3>NoClip</h3>
+            <p>Отключает смерть от препятствий, сохраняя обычные платформы, порталы и управление.</p>
+          </article>
+
+          <article class="feature-card reveal" data-delay="120">
+            <div class="feature-number">03</div><div class="feature-icon">↻</div>
+            <h3>Instant Restart</h3>
+            <p>Следующая попытка начинается сразу после смерти — без лишнего ожидания.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-number">04</div><div class="feature-icon">▱</div>
+            <h3>Show Hitboxes</h3>
+            <p>Показывает нативные контуры столкновений игрока и объектов Geometry Dash.</p>
+          </article>
+
+          <article class="feature-card reveal" data-delay="60">
+            <div class="feature-number">05</div><div class="feature-icon">↑</div>
+            <h3>Jump Bug</h3>
+            <p>Удерживай прыжок для подъёма или нажимай повторно, даже находясь в воздухе.</p>
+          </article>
+
+          <article class="feature-card reveal" data-delay="120">
+            <div class="feature-number">06</div><div class="feature-icon">✓</div>
+            <h3>Instant Complete</h3>
+            <p>Запускает штатное завершение официальных и пользовательских уровней.</p>
+          </article>
+
+          <article class="feature-card unlock-card reveal">
+            <div class="feature-number">07</div><div class="feature-icon">∞</div>
+            <div>
+              <h3>Unlock All</h3>
+              <p>Показывает все иконки разблокированными только пока функция включена. Родной файл сохранения не изменяется.</p>
+            </div>
+            <span class="safe-pill">SAVE FILE UNTOUCHED</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section preview-section" id="preview">
+      <div class="wrap">
+        <div class="section-heading section-heading-row reveal">
+          <div>
+            <p class="eyebrow"><span></span> Интерфейс</p>
+            <h2>Огонь снаружи.<br><em>Контроль внутри.</em></h2>
+          </div>
+          <p>Нативное окно со скруглёнными углами, живым градиентом и поднимающимися искрами. Клики не проходят в игру под меню.</p>
+        </div>
+
+        <div class="preview-grid">
+          <button class="screenshot-card screenshot-wide reveal" type="button" data-lightbox="assets/menu-preview.png" aria-label="Открыть скриншот меню на весь экран">
+            <img src="assets/menu-preview.png" alt="Katana Hack в меню выбора уровня Geometry Dash" width="1920" height="1080">
+            <span class="zoom-label">Открыть кадр <b>↗</b></span>
+          </button>
+
+          <div class="menu-demo reveal" data-delay="100">
+            <div class="demo-flames" aria-hidden="true"></div>
+            <div class="demo-head">
+              <div><b>KATANA HACK</b><span>Fire-powered GD toolkit</span></div>
+              <span class="demo-status">ON</span>
+            </div>
+            <label class="demo-speed">
+              <span>Speed</span>
+              <output for="speed-demo">x1.00</output>
+              <input id="speed-demo" type="range" min="5" max="10000" value="100" aria-label="Демонстрация множителя скорости">
+            </label>
+            <div class="demo-toggles">
+              <button type="button" data-demo-toggle>Enable</button>
+              <button type="button" data-demo-toggle>NoClip: <span>OFF</span></button>
+              <button type="button" data-demo-toggle>Instant Restart: <span>OFF</span></button>
+              <button type="button" data-demo-toggle>Show Hitboxes: <span>OFF</span></button>
+              <button type="button" data-demo-toggle>Jump Bug: <span>OFF</span></button>
+              <button type="button" data-demo-toggle>Instant Complete: <span>OFF</span></button>
+              <button type="button" data-demo-toggle>Unlock All: <span>OFF</span></button>
+            </div>
+            <p>Интерактивный макет — попробуй переключатели.</p>
+          </div>
+
+          <button class="screenshot-card screenshot-detail reveal" type="button" data-lightbox="assets/menu-closeup.png" aria-label="Открыть крупный вид меню">
+            <span class="detail-image"><img src="assets/menu-closeup.png" alt="Крупный план актуального огненного меню Katana Hack" width="299" height="463"></span>
+            <span class="detail-copy"><b>Полное меню Katana Hack</b><small>Speed x100 · Instant Complete · Unlock All</small></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section start-section" id="start">
+      <div class="wrap start-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> Быстрый старт</p>
+          <h2>От кода<br><em>до игры.</em></h2>
+          <p>Активация и получение актуального архива проходят через Telegram-бота.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="reveal"><b>01</b><div><h3>Активируй код</h3><p>Открой бота, нажми «Активировать код» и отправь одноразовый ключ.</p></div></li>
+          <li class="reveal" data-delay="60"><b>02</b><div><h3>Получи архив</h3><p>Бот пришлёт актуальные KatanaHack.dll и KatanaHackInjector.exe.</p></div></li>
+          <li class="reveal" data-delay="120"><b>03</b><div><h3>Запусти Katana Hack</h3><p>Открой Geometry Dash, запусти injector и нажми <kbd>Insert</kbd>.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <canvas class="embers" data-embers aria-hidden="true"></canvas>
+      <div class="wrap cta-inner reveal">
+        <p class="eyebrow"><span></span> Доступ через Telegram</p>
+        <h2>Ready to <em>ignite?</em></h2>
+        <p>Один код. Один бот. Актуальная версия Katana Hack.</p>
+        <a class="button button-primary button-large" href="https://t.me/katanahack_bot" target="_blank" rel="noopener noreferrer">Активировать код <span aria-hidden="true">➤</span></a>
+        <small>@katanahack_bot</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><i></i></span><span>KATANA <em>HACK</em></span></a>
+      <p>Сторонний мод для Geometry Dash. Проект не связан с RobTop Games.</p>
+      <span>© <span data-year></span> Katana Hack</span>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" data-lightbox-dialog aria-label="Просмотр скриншота">
+    <button type="button" data-lightbox-close aria-label="Закрыть">×</button>
+    <img src="assets/menu-preview.png" alt="Скриншот Katana Hack в Geometry Dash">
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
